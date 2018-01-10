@@ -1,0 +1,8 @@
+weight: 4
+title: "Welcome"
+description: >
+  <ul class="list-style-none">
+    <li>We are the UofT Blockchain Group</li>
+    <li>Check out our upcoming events below</li>
+  </ul>
+image: "img/carousel/logo2.png"
