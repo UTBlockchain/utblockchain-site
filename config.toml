@@ -2,7 +2,6 @@ baseurl = "utblockchain.github.io"
 title = "UofT Blockchain Group"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
-publishDir = "docs"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
 # Enable comments by entering your Disqus shortname
@@ -28,9 +27,9 @@ paginate = 10
     weight = 2
 
 [[menu.main]]
-    name = "Events"
-    identifier = "events"
-    url  = "/events/"
+    name = "Past Events"
+    identifier = "pastevents"
+    url  = "/pastevents/"
     weight = 3
 
 [[menu.main]]
@@ -71,7 +70,7 @@ paginate = 10
     defaultDescription = "Site template made by devcows using hugo"
 
     # Google Maps API key (if not set will default to not passing a key.)
-    googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
+    googleMapsApiKey = ""
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
@@ -89,26 +88,15 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
+    email = "contact@uoftbc.ca"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = "<p>The UofT Blockchain Group is here to foster interest in blockchain technologies and research on campus. We want to contribute to the growing ecosystem in Toronto surrounding blockchain research and take advantage of the University Of Toronto's unique position as an innovative university.</p>"
+    copyright = "Copyright (c) 2017 - 2018, UT Blockchain Group; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
     logo = "img/logo.png"
-    address = """<p><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
-      </p>
-      """
-    latitude = "-12.043333"
-    longitude = "-77.028333"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
