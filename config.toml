@@ -1,4 +1,4 @@
-baseurl = "utblockchain.github.io"
+baseurl = "https://utblockchain.github.io/"
 title = "UofT Blockchain Group"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
